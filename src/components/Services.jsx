@@ -2,12 +2,13 @@ import React from "react";
 import Heading from "./small-component/Heading";
 import ServicesCard from "./small-component/ServicesCard";
 import ServiceCardInfo from "./servicesInfo";
+import { Section } from "react-scroll-section";
 
 export default function Services() {
   const cardInfo = new ServiceCardInfo();
 
   return (
-    <section id="services" className="section-bg">
+    <Section id="services" className="section-bg">
       <div className="container">
         <Heading title="Services" />
         <p className="text-center">
@@ -77,6 +78,6 @@ export default function Services() {
           </div>
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

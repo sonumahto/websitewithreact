@@ -13,7 +13,7 @@ export default function Hero() {
                 We are team of talanted designers making websites with Bootstrap
               </h2>
               <div>
-                <a href="/" class="btn-get-started scrollto">
+                <a href="/" className="btn-get-started scrollto">
                   Get Started
                 </a>
               </div>

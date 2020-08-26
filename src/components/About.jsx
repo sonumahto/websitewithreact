@@ -1,11 +1,12 @@
 import React from "react";
 import aboutImg from "../assets/img/about.jpg";
 import Heading from "./small-component/Heading";
+import { Section } from "react-scroll-section";
 
 export default function About() {
   return (
     <div>
-      <section id="about" className="container">
+      <Section id="about" className="container">
         <Heading title="About" />
         <div className="row justify-content-center">
           <div className="col-xl-5 col-md-6 order-md-1 order-1">
@@ -17,26 +18,26 @@ export default function About() {
             </p>
             <ul>
               <li>
-                <i class="icofont-check-circled"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat.
+                <i className="icofont-check-circled"></i> Ullamco laboris nisi
+                ut aliquip ex ea commodo consequat.
               </li>
               <li>
-                <i class="icofont-check-circled"></i> Duis aute irure dolor in
-                reprehenderit in voluptate velit.
+                <i className="icofont-check-circled"></i> Duis aute irure dolor
+                in reprehenderit in voluptate velit.
               </li>
               <li>
-                <i class="icofont-check-circled"></i> Ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in
+                <i className="icofont-check-circled"></i> Ullamco laboris nisi
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in
                 reprehenderit in voluptate trideta storacalaperda mastiro dolore
                 eu fugiat nulla pariatur.
               </li>
             </ul>
           </div>
           <div className="col-xl-5 col-md-6 order-md-2 order-2">
-            <img src={aboutImg} class="img-fluid" alt="" />
+            <img src={aboutImg} className="img-fluid" alt="" />
           </div>
         </div>
-      </section>
+      </Section>
       <section className="counter-section">
         <div className="container">
           <div className="row text-center">

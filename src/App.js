@@ -7,15 +7,22 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Services from "./components/Services";
 import Features from "./components/Features";
+import Testimonial from "./components/Testimonial";
+import { ScrollingProvider } from "react-scroll-section";
+import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Hero />
-      <About />
-      <Services />
-      <Features />
+      <ScrollingProvider>
+        <Header />
+        <Hero />
+        <About />
+        <Services />
+        <Features />
+        <Testimonial />
+        <Contact />
+      </ScrollingProvider>
     </div>
   );
 }

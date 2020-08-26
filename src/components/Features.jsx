@@ -4,7 +4,7 @@ import featureImg from "../assets/img/features.svg";
 
 const ListTile = (props) => (
   <div className="tile mt-5 mt-lg-0">
-    <i class={props.iconClass}></i>
+    <i className={props.iconClass}></i>
     <h4>{props.title}</h4>
     <p>{props.desc}</p>
   </div>
@@ -58,7 +58,7 @@ export default function Features() {
                 <ListTile
                   title={data.title}
                   desc={data.desc}
-                  iconClass={data.iconClass}
+                  iconclassName={data.iconClass}
                 />
               );
             })}
