@@ -1,6 +1,7 @@
 import React from "react";
 import "../src/assets/icofont/icofont.min.css";
 import "./App.css";
+import "font-awesome/css/font-awesome.css";
 
 import Hero from "./components/Hero";
 import Header from "./components/Header";
@@ -10,6 +11,7 @@ import Features from "./components/Features";
 import Testimonial from "./components/Testimonial";
 import { ScrollingProvider } from "react-scroll-section";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
         <Features />
         <Testimonial />
         <Contact />
+        <Footer />
       </ScrollingProvider>
     </div>
   );
